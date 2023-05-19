@@ -5,7 +5,7 @@ ARG MODEL_URL='https://huggingface.co/swl-models/chilloutmix-ni'
 
 # If you are using a private Huggingface model (sign in required to download) insert your Huggingface
 # access token (https://huggingface.co/settings/tokens) below:
-ARG HF_TOKEN=''
+ARG HF_TOKEN='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'
 
 RUN apt update && apt-get -y install git wget \
     python3.10 python3.10-venv python3-pip \
