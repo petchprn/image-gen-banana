@@ -1,7 +1,7 @@
 FROM nvidia/cuda:11.7.1-runtime-ubuntu22.04
   
 # To use a different model, change the model URL below:
-ARG MODEL_URL='https://civitai.com/api/download/models/11745'
+ARG MODEL_URL='https://huggingface.co/swl-models/chilloutmix-ni'
 
 # If you are using a private Huggingface model (sign in required to download) insert your Huggingface
 # access token (https://huggingface.co/settings/tokens) below:
